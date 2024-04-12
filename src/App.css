@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+#icon{
+  margin-right: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-bg{
+  background-image: url('https://t4.ftcdn.net/jpg/04/55/43/29/360_F_455432971_UikdWVsLVVPRjoUAL4JfKkSKfUybQb6V.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-bg{
+  background-image: url('https://t4.ftcdn.net/jpg/04/55/43/29/360_F_455432971_UikdWVsLVVPRjoUAL4JfKkSKfUybQb6V.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.login-bg{
+  background-image: url('https://t4.ftcdn.net/jpg/04/55/43/29/360_F_455432971_UikdWVsLVVPRjoUAL4JfKkSKfUybQb6V.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card{
+  background-image: url('https://t4.ftcdn.net/jpg/04/55/43/29/360_F_455432971_UikdWVsLVVPRjoUAL4JfKkSKfUybQb6V.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+table{
+  text-align:left;
+  margin-left:35%;
+  border-spacing:10px;
+  border-width:10%;
+  
+  
+
+}
+td{
+  border-style:ridge;
+  padding:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+/* .navbar{
+  background: radial-gradient(401px at 50.6% -0.3%, rgba(255, 255, 255, 0.31) 1.2%, rgb(85, 194, 13) 100.2%);
+} */
